@@ -1,0 +1,78 @@
+Java principles: 
+
+1) Abstraction: Process where you show only
+   “relevant” data and “hide” unnecessary details of an object from
+   the user.
+
+   Advantages: 
+   1) Can use it as one of the hiding method in programming.
+
+   Disadvantages: -
+
+
+
+2) Encapsulation: Binding the data with the code that manipulates
+   it and keeps the data and the code safe from external 
+   interference.
+
+   Advantages: 
+   1) Encapsulation helps us in binding the data(instance variables) and 
+      the member functions(that work on the instance variables) of a class.
+   2) Encapsulation is also useful in hiding the data(instance variables) of 
+      a class from an illegal direct access.
+   3) Encapsulation also helps us to make a flexible code which is easy to 
+      change and maintain.
+
+   Disadvantages: 
+   1) If proper encapsulation is not followed in a code, it leads to its bad designing.
+
+
+
+3) Inheritance: Inheritance is the mechanism 
+   by which an object acquires the some/all properties 
+   of another object and supports the concept of 
+   hierarchical classification.
+
+   Advantages:
+   1) Inheritance promotes reusability. When a class inherits or derives another class,
+      it can access all the functionality of inherited class.
+   2) Reusability enhanced reliability. The base class code will be already tested and debugged.
+   3) As the existing code is reused, it leads to less development and maintenance costs.
+   4) Inheritance makes the sub classes follow a standard interface.
+   5) Inheritance helps to reduce code redundancy and supports code extensibility.
+   6) Inheritance facilitates creation of class libraries.
+
+   Disadvantages:
+   1) Inherited functions work slower than normal function as there is indirection.
+   2) Improper use of inheritance may lead to wrong solutions.
+   3) Often, data members in the base class are left unused which may lead to memory wastage.
+   4) Inheritance increases the coupling between base class and derived class. 
+      A change in base class will affect all the child classes.
+
+
+
+4) Polymorphism: 
+   1) Compile time Polymorphism: Polymorphism 
+      that is resolved during compiler time, for example: 
+      Overloading Method.
+
+
+   2) Runtime Polymorphism: Dynamic polymorphism is 
+      a process in which a call to an overridden method is
+      resolved at runtime.
+
+   Advantages: 
+   1) It helps programmers reuse the code and classes once written, 
+      tested and implemented. They can be reused in many ways.
+   2) Single variable name can be used to store variables of multiple 
+      data types(Float, double, Long, Int etc).
+   3) Polymorphism helps in reducing the coupling between different functionalities.
+
+   Disadvantages: 
+   1) One of the disadvantages of polymorphism is that developers find it
+      difficult to implement polymorphism in codes.
+   2) Run time polymorphism can lead to the performance issue as machine needs to decide
+      which method or variable to invoke so it basically degrades the performances as decisions 
+      are taken at run time.
+   3) Polymorphism reduces the readability of the program. One needs to identify the runtime
+      behavior of the program to identify actual execution time.
